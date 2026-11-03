@@ -1,0 +1,9 @@
+{
+  "T20Nimb": {
+    "Normalizar": "Reconhecer itens do Fichas de Nimb",
+    "Comparando": "Comparando a ficha com os compêndios…",
+    "NadaParaNormalizar": "Nada para normalizar nesta ficha.",
+    "SemPermissao": "Você não tem permissão para alterar esta ficha.",
+    "SelecioneAtor": "Selecione um token ou abra a ficha de um personagem."
+  }
+}

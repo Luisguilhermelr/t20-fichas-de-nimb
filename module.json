@@ -1,0 +1,54 @@
+{
+  "id": "t20-fichas-de-nimb",
+  "title": "T20 Fichas de Nimb",
+  "description": "<p>Reconhece fichas importadas do <strong>fichasdenimb.com.br</strong>: compara cada item genérico com os compêndios de Tormenta20 instalados (sistema e módulos), substitui poderes, magias, armas, equipamentos e tesouros pelas versões oficiais (com automação) e adiciona raça, origem e dados da classe. Preserva quantidade, equipado e ordem dos itens, e mostra um relatório do que não encontrou.</p><p>Funciona automaticamente ao criar a ficha, por um botão no cabeçalho ou pela API <code>game.t20Nimb.normalizar(actor)</code>.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "@xx_.luis._xx",
+      "url": "https://github.com/Luisguilhermelr"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    {
+      "src": "styles/nimb.css"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "flags": {},
+  "license": "MIT",
+  "url": "https://github.com/Luisguilhermelr/t20-fichas-de-nimb",
+  "manifest": "https://github.com/Luisguilhermelr/t20-fichas-de-nimb/releases/latest/download/module.json",
+  "download": "https://github.com/Luisguilhermelr/t20-fichas-de-nimb/releases/latest/download/module.zip",
+  "readme": "https://github.com/Luisguilhermelr/t20-fichas-de-nimb/blob/main/README.md",
+  "bugs": "https://github.com/Luisguilhermelr/t20-fichas-de-nimb/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.5.0"
+        }
+      }
+    ]
+  }
+}

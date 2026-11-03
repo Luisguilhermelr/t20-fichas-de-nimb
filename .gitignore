@@ -1,0 +1,9 @@
+# Dependências e artefatos de build
+node_modules/
+*.zip
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
