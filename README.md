@@ -233,6 +233,8 @@ um compêndio muda, ou manualmente por `construirIndice(true)`.
 Distribuído sob a licença **MIT**. Você pode usar, modificar e redistribuir,
 mantendo o aviso de licença.
 
+Tormenta20 é um sistema da **Jambô Editora**.
+
 Feito por **@xx_.luis._xx**.
 Fichas de Nimb é um projeto independente de terceiros; este módulo apenas lê o
 JSON exportado pelo site.
